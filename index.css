@@ -2548,10 +2548,13 @@ a:focus,a:hover{
     }
 }
 @media(min-width:768px){
-     .Persona__mixcard__attrs{
+  .Persona:nth-child(odd)   .Persona__mixcard__attrs{
         transform:translateY(-25%) translateX(50%)
     }
 }
+
+
+
 .Persona__card{
     -ms-flex-align:center;
     align-items:center;
