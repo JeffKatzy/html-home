@@ -144,7 +144,8 @@ output{
     -ms-flex-wrap:wrap;
     flex-wrap:wrap;
     margin:0 auto;
-    max-width:1240px
+    max-width:1240px;
+    padding: 10px 0px 12% 0px;
 }
 @media(min-width:768px){
     .row,.row-reverse{
@@ -164,7 +165,7 @@ output{
 }
 @media(min-width:768px){
     .col{
-        padding:0 10px
+        padding:70px 10px
     }
 }
 .col-size-2{
@@ -715,7 +716,7 @@ input::-webkit-calendar-picker-indicator,input::-webkit-clear-button,input::-web
     }
 }
 .Section__content{
-    padding:53px 21% 53px 33px
+    padding:53px 21% 0px 33px
 }
 @media(min-width:768px){
     .Section__content{
@@ -2298,7 +2299,6 @@ a:focus,a:hover{
     margin-top:15px
 }
 .Solutions__container{
-    background:url(https://assets.curology.com/media/8933543513698df41bdcc67441fe0500.jpg) 50% 50% no-repeat;
     background-size:cover;
     display:-ms-flexbox;
     display:flex;
@@ -2309,14 +2309,12 @@ a:focus,a:hover{
 }
 @media(-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){
     .Solutions__container{
-        background-image:url(https://assets.curology.com/media/59073e1fc65e865622cc4e07a32e9f1d.jpg);
         background-size:cover
     }
 }
 @media(min-width:330px){
     .Solutions__container{
         padding:40px;
-        background-image:url(https://assets.curology.com/media/03d4d3e26716bee0d19cbcb39e62cb0e.jpg);
         background-repeat:no-repeat;
         background-position-x:calc(17vh + 50%);
         background-position-y:140px;
@@ -2326,20 +2324,17 @@ a:focus,a:hover{
 }
 @media(min-width:330px) and (-webkit-min-device-pixel-ratio:2),(min-width:330px) and (min-resolution:192dpi){
     .Solutions__container{
-        background-image:url(https://assets.curology.com/media/b16babb620f1bc593f7ef60d734d403c.jpg);
         background-size:285px
     }
 }
 @media(min-width:768px){
     .Solutions__container{
-        background:url(https://assets.curology.com/media/3cf5dac0556f828ab003236678124232.jpg) 100% 60% no-repeat;
         height:712px;
         padding:0 10px
     }
 }
 @media(min-width:768px) and (-webkit-min-device-pixel-ratio:2),(min-width:768px) and (min-resolution:192dpi){
     .Solutions__container{
-        background-image:url(https://assets.curology.com/media/ba3c4951f9ada61b38e799334284c08b.jpg);
         background-size:547px
     }
 }
@@ -2351,7 +2346,6 @@ a:focus,a:hover{
     }
 }
 .Solutions__container-m{
-    background:url(https://assets.curology.com/media/8933543513698df41bdcc67441fe0500.jpg) 50% 50% no-repeat;
     background-size:cover;
     display:-ms-flexbox;
     display:flex;
@@ -2554,7 +2548,7 @@ a:focus,a:hover{
     }
 }
 @media(min-width:768px){
-    .Persona__mixcard__attrs{
+     .Persona__mixcard__attrs{
         transform:translateY(-25%) translateX(50%)
     }
 }
