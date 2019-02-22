@@ -1870,7 +1870,12 @@ a:focus,a:hover{
 }
 @media(min-width:768px){
     .Persona.Section--first .Persona__mixcard-name-badge-wrapper{
-        left:0
+        left: 0px;
+    }
+}
+@media(min-width:768px){
+    .Persona.Section--second .Persona__mixcard-name-badge-wrapper{
+        left: 90%;
     }
 }
 .Persona__mixcard-name-badge{
@@ -2508,7 +2513,12 @@ a:focus,a:hover{
     }
 }
 .RealStories__title{
-    text-align:center
+    text-align:center;
+    padding-top: 5%;
+}
+
+.RealStories__title h2 {
+  font-size: 30px;
 }
 @media(min-width:768px){
     .RealStories__title{
@@ -2544,9 +2554,21 @@ a:focus,a:hover{
 }
 @media(min-width:768px){
     .Persona__attributes .Persona__mixcard__attrs{
-        transform:translateY(-25%) translateX(-50%)
+        transform:translateY(-25%) translateX(-50%);
     }
 }
+
+@media(min-width:768px){
+  .Persona__mixcard__attrs.Persona__mixcard__attrs--third.mix-active {
+    text-align: center;
+    left: 12%;
+  }
+
+  .Section--third .Persona__mixcard-name-badge-wrapper {
+    left: 12%
+  }
+}
+
 @media(min-width:768px){
   .Persona:nth-child(odd)   .Persona__mixcard__attrs{
         transform:translateY(-25%) translateX(50%)
@@ -2562,7 +2584,8 @@ a:focus,a:hover{
     display:flex;
     -ms-flex-pack:center;
     justify-content:center;
-    padding:25px 25px 0
+    padding:25px 25px 0;
+    width: 78%;
 }
 .Persona__portrait__container{
     overflow:hidden;
@@ -2575,7 +2598,6 @@ a:focus,a:hover{
     justify-content:flex-start;
     z-index:2;
     height:435px;
-    width:309px
 }
 @media(min-width:992px){
     .Persona__portrait__container{
@@ -2597,14 +2619,21 @@ a:focus,a:hover{
         justify-content:flex-end
     }
 }
+@media(max-width:767px){
+  .Persona__portrait__container--business img {
+    left: 26%;
+    width: 85%;
+    top: 18%;
+  }
+}
 .Persona__portrait__container--justine img{
-    height:548px;
-    width:412px
+    height: 64%;
+    width: 75%;
+    right: 18%;
 }
 @media(min-width:992px){
     .Persona__portrait__container--justine img{
-        height:747px;
-        width:560px
+      top: 0px;
     }
 }
 .Persona__portrait__container--nyle{
@@ -2656,8 +2685,10 @@ a:focus,a:hover{
 }
 @media(min-width:992px){
     .Persona__portrait__container--ariel img{
-        height:696px;
-        width:603px
+        height: 75%;
+        width: 115%;
+        top: -3%;
+        left: 6%;
     }
 }
 .Persona__portrait__container--ariel-m{
@@ -2798,7 +2829,7 @@ a:focus,a:hover{
 }
 .Persona__mixcard__attrs{
     color:#332e56;
-    font-size:22px;
+    font-size: 30px;
     font-weight:700;
     left:0;
     position:absolute;
@@ -2811,9 +2842,28 @@ a:focus,a:hover{
 .Persona__mixcard__attrs span{
     text-shadow:none
 }
+@media(max-width:768px){
+  .Section--first .Persona__mixcard__attrs{
+    left: 9%;
+  }
+
+  .Persona__portrait__container--justine img {
+    height: 57%;
+    width: 88%;
+    right: -10%;
+    top: 22%;
+  }
+}
+
+@media(max-width:768px){
+  .Section--third .Persona__mixcard__attrs{
+    left: -40%;
+  }
+}
+
 @media(min-width:768px){
     .Persona__mixcard__attrs{
-        font-size:30px
+        font-size:30px;
     }
 }
 .Persona__mixcard__attrs--first{
@@ -2829,7 +2879,8 @@ a:focus,a:hover{
 }
 @media(min-width:768px){
     .Persona__mixcard__attrs--second{
-        text-align:center
+        text-align:center;
+        right: 9%;
     }
 }
 @media(min-width:992px){
