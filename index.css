@@ -672,7 +672,7 @@ input::-webkit-calendar-picker-indicator,input::-webkit-clear-button,input::-web
     color:#fff
 }
 .Section{
-    padding:53px 21% 53px 33px;
+    padding:53px 26px 33px 33px;
     position:relative
 }
 @media(min-width:768px){
@@ -2501,7 +2501,11 @@ a:focus,a:hover{
         display:flex;
         -ms-flex-direction:row-reverse;
         flex-direction:row-reverse;
-        height:892px
+        height:750px;
+    }
+
+    .Section--third .Persona__attributes {
+      padding-top: 0px;
     }
 }
 .RealStories{
@@ -2584,7 +2588,7 @@ a:focus,a:hover{
     display:flex;
     -ms-flex-pack:center;
     justify-content:center;
-    padding:25px 25px 0;
+    padding:25px 0px 0;
     width: 78%;
 }
 .Persona__portrait__container{
@@ -2845,6 +2849,7 @@ a:focus,a:hover{
 @media(max-width:768px){
   .Section--first .Persona__mixcard__attrs{
     left: 9%;
+    bottom: -20%;
   }
 
   .Persona__portrait__container--justine img {
@@ -2852,6 +2857,14 @@ a:focus,a:hover{
     width: 88%;
     right: -10%;
     top: 22%;
+  }
+
+  .Persona__second_col {
+    top: -30px;
+  }
+
+  .Persona__card {
+    width: 92%;
   }
 }
 
@@ -7086,4 +7099,5 @@ ul.GuideSection__list li:before{
 .Careers{
     padding-top:76px
 }
+
 
