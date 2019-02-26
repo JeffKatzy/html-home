@@ -2683,14 +2683,22 @@ a:focus,a:hover{
         margin-left:75px
     }
 }
+@media(max-width:767px){
+  .Persona__portrait__container--ariel img{
+    height: 460px;
+    width: 670px;
+    left: -13%;
+  }
+}
 .Persona__portrait__container--ariel img{
-    height:522px;
-    width:452px
+      height: 460px;
+    width: 670px;
+    left: -3%;
 }
 @media(min-width:992px){
     .Persona__portrait__container--ariel img{
-        height: 75%;
-        width: 115%;
+        height: 62%;
+        width: 120%;
         top: -3%;
         left: 6%;
     }
